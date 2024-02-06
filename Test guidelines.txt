@@ -1,0 +1,45 @@
+Creative Guild, Full Stack Developer Testing Instructions
+
+
+Full Stack Web Development Test
+
+You will find all the required resources within the technical test folder.
+
+1. landscapes.json: Use this sample json file to get the data you need to show in the user interface, such as the photographer's profile details along with an Array that contains the data for each of the gallery images.
+
+* The profile picture and gallery is automatically populated for every user during registration.
+
+2. img (folder): This folder contains the images for the logo, gallery and profile section.
+
+3. creative (folder): This is just an idea of the final user flow. Users register an account, then they login to their photographer's profile and gallery grid "profile screen". (You could also suggest your own user interface idea)
+
+I - Front-End
+
+
+Create the "Register", "Login" and "Profile" screens along with proper form validations.
+
+You must fetch the data from the json file asynchronously (ajax) and display in the layout as it shows in the creative.
+You must develop the styles for each of the elements of the user interface.
+
+* Feel free to use any framework, library or resource that you consider helpful for your development process. Any additional UI or UX ideas out of the provided creative guidelines will count as a bonus.
+
+II - Back-end
+
+- Design a database based off the provided data structure (landscapes.json). 
+
+- Add RESTful APIs to allow users to register new accounts and to login.
+* Registration: Users will enter their details using the register screen: Full Name, email, phone number and bio.
+Note: Auto populate the profile picture and the album array when registering a new user account.
+
+- Add authentications and authorizations.
+* Authenticate a user by implementing a JSON Web Token or session token-based solution.
+
+- Build a RESTful API in PHP that returns the same data and format of the provided data structure (landscapes.json).
+- Build all the necessary models/controllers that you consider needed based on the provided data structure. Example (Photographer, Gallery, Photo, etc).
+
+* Feel free to use Laravel for building the API and VueJs for the front-end.
+
+You must attach a document in which you describe the development process and highlight what you consider was easy or difficult. Also provide a brief description explaining which tools you decide to use and why you consider these important for your development. 
+
+** Please create and publish a repository (Git / Bitbucket) and share the link so we could track the process of your test.
+
